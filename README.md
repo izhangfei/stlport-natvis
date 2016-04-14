@@ -1,2 +1,2 @@
 # stlport-natvis
-custom views of native objects in the vs 2013 or vs 2015 debugger for stlport
+custom views of native objects in the VisualStudio 2013 or VisualStudio 2015 debugger for stlport
