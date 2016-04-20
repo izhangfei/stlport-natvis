@@ -3,7 +3,7 @@
 <AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
 
 
-<Type Name="std::pair&lt;*&gt;">
+<Type Name="stlp::std::pair&lt;*&gt;">
     <DisplayString>({first}, {second})</DisplayString>
     <Expand>
         <Item Name="first">first</Item>
@@ -11,22 +11,22 @@
     </Expand>
 </Type>
 
-<Type Name="std::tuple&lt;std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil&gt;">
-  <AlternativeType Name="std::tuple&lt;&gt;" />
+<Type Name="stlp::std::tuple&lt;stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil&gt;">
+  <AlternativeType Name="stlp::std::tuple&lt;&gt;" />
     <DisplayString>()</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::tuple&lt;*,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil&gt;">
-  <AlternativeType Name="std::tuple&lt;*&gt;" />
+<Type Name="stlp::std::tuple&lt;*,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil&gt;">
+  <AlternativeType Name="stlp::std::tuple&lt;*&gt;" />
   <DisplayString>({_Myfirst._Val})</DisplayString>
     <Expand>
         <Item Name="[0]">_Myfirst._Val</Item>
     </Expand>
 </Type>
 
-<Type Name="std::tuple&lt;*,*,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil&gt;">
-  <AlternativeType Name="std::tuple&lt;*,*&gt;" />
+<Type Name="stlp::std::tuple&lt;*,*,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil&gt;">
+  <AlternativeType Name="stlp::std::tuple&lt;*,*&gt;" />
   <DisplayString>({_Myfirst._Val}, {((_Mybase *) this)->_Myfirst._Val})</DisplayString>
     <Expand>
         <Item Name="[0]">_Myfirst._Val</Item>
@@ -34,8 +34,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::tuple&lt;*,*,*,std::_Nil,std::_Nil,std::_Nil,std::_Nil,std::_Nil&gt;">
-  <AlternativeType Name="std::tuple&lt;*,*,*&gt;" />
+<Type Name="stlp::std::tuple&lt;*,*,*,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil&gt;">
+  <AlternativeType Name="stlp::std::tuple&lt;*,*,*&gt;" />
   <DisplayString>({_Myfirst._Val}, {((_Mybase *) this)->_Myfirst._Val}, {((_Mybase::_Mybase *) this)->_Myfirst._Val})</DisplayString>
     <Expand>
         <Item Name="[0]">_Myfirst._Val</Item>
@@ -44,8 +44,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::tuple&lt;*,*,*,*,std::_Nil,std::_Nil,std::_Nil,std::_Nil&gt;">
-  <AlternativeType Name="std::tuple&lt;*,*,*,*&gt;" />
+<Type Name="stlp::std::tuple&lt;*,*,*,*,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil&gt;">
+  <AlternativeType Name="stlp::std::tuple&lt;*,*,*,*&gt;" />
   <DisplayString>({_Myfirst._Val}, {((_Mybase *) this)->_Myfirst._Val}, {((_Mybase::_Mybase *) this)->_Myfirst._Val}, {((_Mybase::_Mybase::_Mybase *) this)->_Myfirst._Val})</DisplayString>
     <Expand>
         <Item Name="[0]">_Myfirst._Val</Item>
@@ -55,8 +55,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::tuple&lt;*,*,*,*,*,std::_Nil,std::_Nil,std::_Nil&gt;">
-  <AlternativeType Name="std::tuple&lt;*,*,*,*,*&gt;" />
+<Type Name="stlp::std::tuple&lt;*,*,*,*,*,stlp::std::_Nil,stlp::std::_Nil,stlp::std::_Nil&gt;">
+  <AlternativeType Name="stlp::std::tuple&lt;*,*,*,*,*&gt;" />
   <DisplayString>({_Myfirst._Val}, {((_Mybase *) this)->_Myfirst._Val}, {((_Mybase::_Mybase *) this)->_Myfirst._Val}, {((_Mybase::_Mybase::_Mybase *) this)->_Myfirst._Val}, {((_Mybase::_Mybase::_Mybase::_Mybase *) this)->_Myfirst._Val})</DisplayString>
     <Expand>
         <Item Name="[0]">_Myfirst._Val</Item>
@@ -68,19 +68,19 @@
 </Type>
 
 
-<Type Name="std::tr1::tuple&lt;std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::tuple&lt;stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil&gt;"> <!-- VC10 -->
   <DisplayString>()</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::tr1::tuple&lt;*,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::tuple&lt;*,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil&gt;"> <!-- VC10 -->
   <DisplayString>({_Impl._Value})</DisplayString>
     <Expand>
         <Item Name="[0]">_Impl._Value</Item>
     </Expand>
 </Type>
 
-<Type Name="std::tr1::tuple&lt;*,*,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::tuple&lt;*,*,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil&gt;"> <!-- VC10 -->
   <DisplayString>({_Impl._Value}, {_Impl._Tail._Value})</DisplayString>
     <Expand>
         <Item Name="[0]">_Impl._Value</Item>
@@ -88,7 +88,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::tuple&lt;*,*,*,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::tuple&lt;*,*,*,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil&gt;"> <!-- VC10 -->
   <DisplayString>({_Impl._Value}, {_Impl._Tail._Value}, {_Impl._Tail._Tail._Value})</DisplayString>
     <Expand>
         <Item Name="[0]">_Impl._Value</Item>
@@ -97,7 +97,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::tuple&lt;*,*,*,*,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::tuple&lt;*,*,*,*,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil&gt;"> <!-- VC10 -->
     <DisplayString>({_Impl._Value}, {_Impl._Tail._Value}, {_Impl._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Value})</DisplayString>
     <Expand>
         <Item Name="[0]">_Impl._Value</Item>
@@ -107,7 +107,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::tuple&lt;*,*,*,*,*,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::tuple&lt;*,*,*,*,*,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil&gt;"> <!-- VC10 -->
     <DisplayString>({_Impl._Value}, {_Impl._Tail._Value}, {_Impl._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Value})</DisplayString>
     <Expand>
         <Item Name="[0]">_Impl._Value</Item>
@@ -118,7 +118,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::tuple&lt;*,*,*,*,*,*,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::tuple&lt;*,*,*,*,*,*,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil&gt;"> <!-- VC10 -->
     <DisplayString>({_Impl._Value}, {_Impl._Tail._Value}, {_Impl._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Value})</DisplayString>
     <Expand>
         <Item Name="[0]">_Impl._Value</Item>
@@ -130,7 +130,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::tuple&lt;*,*,*,*,*,*,*,std::tr1::_Nil,std::tr1::_Nil,std::tr1::_Nil&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::tuple&lt;*,*,*,*,*,*,*,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil&gt;"> <!-- VC10 -->
     <DisplayString>({_Impl._Value}, {_Impl._Tail._Value}, {_Impl._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Tail._Value})</DisplayString>
     <Expand>
         <Item Name="[0]">_Impl._Value</Item>
@@ -143,7 +143,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::tuple&lt;*,*,*,*,*,*,*,*,std::tr1::_Nil,std::tr1::_Nil&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::tuple&lt;*,*,*,*,*,*,*,*,stlp::std::tr1::_Nil,stlp::std::tr1::_Nil&gt;"> <!-- VC10 -->
     <DisplayString>({_Impl._Value}, {_Impl._Tail._Value}, {_Impl._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Tail._Tail._Value})</DisplayString>
     <Expand>
         <Item Name="[0]">_Impl._Value</Item>
@@ -157,7 +157,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::tuple&lt;*,*,*,*,*,*,*,*,*,std::tr1::_Nil&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::tuple&lt;*,*,*,*,*,*,*,*,*,stlp::std::tr1::_Nil&gt;"> <!-- VC10 -->
     <DisplayString>({_Impl._Value}, {_Impl._Tail._Value}, {_Impl._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Tail._Tail._Tail._Value})</DisplayString>
     <Expand>
         <Item Name="[0]">_Impl._Value</Item>
@@ -172,7 +172,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::tuple&lt;*,*,*,*,*,*,*,*,*,*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::tuple&lt;*,*,*,*,*,*,*,*,*,*&gt;"> <!-- VC10 -->
     <DisplayString>({_Impl._Value}, {_Impl._Tail._Value}, {_Impl._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Tail._Tail._Tail._Value}, {_Impl._Tail._Tail._Tail._Tail._Tail._Tail._Tail._Tail._Tail._Value})</DisplayString>
     <Expand>
         <Item Name="[0]">_Impl._Value</Item>
@@ -189,7 +189,7 @@
 </Type>
 
 
-<Type Name="std::bitset&lt;*&gt;">
+<Type Name="stlp::std::bitset&lt;*&gt;">
     <DisplayString>{{ size={(size_t) _EEN_BITS} }}</DisplayString>
     <Expand>
         <IndexListItems>
@@ -199,7 +199,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::bitset&lt;*&gt;::reference">
+<Type Name="stlp::std::bitset&lt;*&gt;::reference">
     <DisplayString>{(_Pbitset-&gt;_Array[_Mypos / _Pbitset-&gt;_Bitsperword] &gt;&gt; (_Mypos % _Pbitset-&gt;_Bitsperword)) &amp; 1,d}</DisplayString>
     <Expand>
         <Item Name="[bitset]">_Pbitset</Item>
@@ -208,13 +208,13 @@
 </Type>
 
 
-<Type Name="std::allocator&lt;*&gt;">
+<Type Name="stlp::std::allocator&lt;*&gt;">
     <DisplayString>allocator</DisplayString>
     <Expand/>
 </Type>
 
 
-<Type Name="std::unique_ptr&lt;*&gt;">
+<Type Name="stlp::std::unique_ptr&lt;*&gt;">
     <DisplayString Condition="_Myptr == 0">empty</DisplayString>
     <DisplayString Condition="_Myptr != 0">unique_ptr {*_Myptr}</DisplayString>
     <Expand>
@@ -223,22 +223,22 @@
 </Type>
 
 
-<Type Name="std::_Ref_count&lt;*&gt;">
-    <AlternativeType Name="std::tr1::_Ref_count&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ref_count&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ref_count&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>default</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::_Ref_count_del&lt;*&gt;">
-    <AlternativeType Name="std::tr1::_Ref_count_del&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ref_count_del&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ref_count_del&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>custom deleter</DisplayString>
     <Expand>
         <Item Name="[deleter]">_Dtor</Item>
     </Expand>
 </Type>
 
-<Type Name="std::_Ref_count_del_alloc&lt;*&gt;">
-    <AlternativeType Name="std::tr1::_Ref_count_del_alloc&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ref_count_del_alloc&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ref_count_del_alloc&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>custom deleter, custom allocator</DisplayString>
     <Expand>
         <Item Name="[deleter]">_Dtor</Item>
@@ -246,22 +246,22 @@
     </Expand>
 </Type>
 
-<Type Name="std::_Ref_count_obj&lt;*&gt;">
-    <AlternativeType Name="std::tr1::_Ref_count_obj&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ref_count_obj&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ref_count_obj&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>make_shared</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::_Ref_count_obj_alloc&lt;*&gt;">
-    <AlternativeType Name="std::tr1::_Ref_count_obj_alloc&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ref_count_obj_alloc&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ref_count_obj_alloc&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>allocate_shared</DisplayString>
     <Expand>
         <Item Name="[allocator]">_Myal</Item>
     </Expand>
 </Type>
 
-<Type Name="std::shared_ptr&lt;*&gt;">
-    <AlternativeType Name="std::tr1::shared_ptr&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::shared_ptr&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::shared_ptr&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString Condition="_Ptr == 0">empty</DisplayString>
     <DisplayString Condition="(_Ptr != 0) &amp;&amp; (_Rep-&gt;_Uses == 1)   &amp;&amp; (_Rep-&gt;_Weaks == 1)"  >shared_ptr {*_Ptr} [{_Rep-&gt;_Uses} strong ref] [{*_Rep}]</DisplayString>
     <DisplayString Condition="(_Ptr != 0) &amp;&amp; (_Rep-&gt;_Uses == 1)   &amp;&amp; (_Rep-&gt;_Weaks == 2)"  >shared_ptr {*_Ptr} [{_Rep-&gt;_Uses} strong ref, {_Rep-&gt;_Weaks - 1} weak ref] [{*_Rep}]</DisplayString>
@@ -275,8 +275,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::weak_ptr&lt;*&gt;">
-    <AlternativeType Name="std::tr1::weak_ptr&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::weak_ptr&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::weak_ptr&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString Condition="_Ptr == 0">empty</DisplayString>
     <DisplayString Condition="(_Ptr != 0) &amp;&amp; (_Rep-&gt;_Uses == 0)   &amp;&amp; (_Rep-&gt;_Weaks == 1)"  >expired [{_Rep-&gt;_Weaks} weak ref] [{*_Rep}]</DisplayString>
     <DisplayString Condition="(_Ptr != 0) &amp;&amp; (_Rep-&gt;_Uses == 0)   &amp;&amp; (_Rep-&gt;_Weaks &gt; 1)">expired [{_Rep-&gt;_Weaks} weak refs] [{*_Rep}]</DisplayString>
@@ -291,22 +291,22 @@
 </Type>
 
 
-<Type Name="std::_Callable_base&lt;*,1&gt;">
-    <AlternativeType Name="std::tr1::_Callable_base&lt;*,1&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Callable_base&lt;*,1&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Callable_base&lt;*,1&gt;" /> <!-- VC10 -->
     <DisplayString>{*_Ptr}</DisplayString>
     <Expand>
         <Item Name="[ptr]">_Ptr</Item>
     </Expand>
 </Type>
 
-<Type Name="std::_Callable_base&lt;*,0&gt;">
-    <AlternativeType Name="std::tr1::_Callable_base&lt;*,0&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Callable_base&lt;*,0&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Callable_base&lt;*,0&gt;" /> <!-- VC10 -->
     <DisplayString>{_Object}</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::reference_wrapper&lt;*&gt;">
-    <AlternativeType Name="std::tr1::reference_wrapper&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::reference_wrapper&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::reference_wrapper&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>{_Callee}</DisplayString>
     <Expand>
         <ExpandedItem>_Callee</ExpandedItem>
@@ -314,117 +314,117 @@
 </Type>
 
 
-<Type Name="std::plus&lt;*&gt;">
+<Type Name="stlp::std::plus&lt;*&gt;">
     <DisplayString>plus</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::minus&lt;*&gt;">
+<Type Name="stlp::std::minus&lt;*&gt;">
     <DisplayString>minus</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::multiplies&lt;*&gt;">
+<Type Name="stlp::std::multiplies&lt;*&gt;">
     <DisplayString>multiplies</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::divides&lt;*&gt;">
+<Type Name="stlp::std::divides&lt;*&gt;">
     <DisplayString>divides</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::modulus&lt;*&gt;">
+<Type Name="stlp::std::modulus&lt;*&gt;">
     <DisplayString>modulus</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::negate&lt;*&gt;">
+<Type Name="stlp::std::negate&lt;*&gt;">
     <DisplayString>negate</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::equal_to&lt;*&gt;">
+<Type Name="stlp::std::equal_to&lt;*&gt;">
     <DisplayString>equal_to</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::not_equal_to&lt;*&gt;">
+<Type Name="stlp::std::not_equal_to&lt;*&gt;">
     <DisplayString>not_equal_to</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::greater&lt;*&gt;">
+<Type Name="stlp::std::greater&lt;*&gt;">
     <DisplayString>greater</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::less&lt;*&gt;">
+<Type Name="stlp::std::less&lt;*&gt;">
     <DisplayString>less</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::greater_equal&lt;*&gt;">
+<Type Name="stlp::std::greater_equal&lt;*&gt;">
     <DisplayString>greater_equal</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::less_equal&lt;*&gt;">
+<Type Name="stlp::std::less_equal&lt;*&gt;">
     <DisplayString>less_equal</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::logical_and&lt;*&gt;">
+<Type Name="stlp::std::logical_and&lt;*&gt;">
     <DisplayString>logical_and</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::logical_or&lt;*&gt;">
+<Type Name="stlp::std::logical_or&lt;*&gt;">
     <DisplayString>logical_or</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::logical_not&lt;*&gt;">
+<Type Name="stlp::std::logical_not&lt;*&gt;">
     <DisplayString>logical_not</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::bit_and&lt;*&gt;">
+<Type Name="stlp::std::bit_and&lt;*&gt;">
     <DisplayString>bit_and</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::bit_or&lt;*&gt;">
+<Type Name="stlp::std::bit_or&lt;*&gt;">
     <DisplayString>bit_or</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::bit_xor&lt;*&gt;">
+<Type Name="stlp::std::bit_xor&lt;*&gt;">
     <DisplayString>bit_xor</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::identity&lt;*&gt;">
+<Type Name="stlp::std::identity&lt;*&gt;">
     <DisplayString>identity</DisplayString>
     <Expand/>
 </Type>
 
 
-<Type Name="std::unary_negate&lt;*&gt;">
+<Type Name="stlp::std::unary_negate&lt;*&gt;">
     <DisplayString>not1({_Functor})</DisplayString>
     <Expand>
         <Item Name="[pred]">_Functor</Item>
     </Expand>
 </Type>
 
-<Type Name="std::binary_negate&lt;*&gt;">
+<Type Name="stlp::std::binary_negate&lt;*&gt;">
     <DisplayString>not2({_Functor})</DisplayString>
     <Expand>
         <Item Name="[pred]">_Functor</Item>
     </Expand>
 </Type>
 
-<Type Name="std::binder1st&lt;*&gt;">
+<Type Name="stlp::std::binder1st&lt;*&gt;">
     <DisplayString>bind1st({op}, {value})</DisplayString>
     <Expand>
         <Item Name="op">op</Item>
@@ -432,7 +432,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::binder2nd&lt;*&gt;">
+<Type Name="stlp::std::binder2nd&lt;*&gt;">
     <DisplayString>bind2nd({op}, {value})</DisplayString>
     <Expand>
         <Item Name="op">op</Item>
@@ -440,30 +440,30 @@
     </Expand>
 </Type>
 
-<Type Name="std::pointer_to_unary_function&lt;*&gt;">
-    <AlternativeType Name="std::pointer_to_binary_function&lt;*&gt;" />
+<Type Name="stlp::std::pointer_to_unary_function&lt;*&gt;">
+    <AlternativeType Name="stlp::std::pointer_to_binary_function&lt;*&gt;" />
     <DisplayString>ptr_fun({_Pfun})</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::mem_fun_t&lt;*&gt;">
-    <AlternativeType Name="std::mem_fun1_t&lt;*&gt;" />
-    <AlternativeType Name="std::const_mem_fun_t&lt;*&gt;" />
-    <AlternativeType Name="std::const_mem_fun1_t&lt;*&gt;" />
+<Type Name="stlp::std::mem_fun_t&lt;*&gt;">
+    <AlternativeType Name="stlp::std::mem_fun1_t&lt;*&gt;" />
+    <AlternativeType Name="stlp::std::const_mem_fun_t&lt;*&gt;" />
+    <AlternativeType Name="stlp::std::const_mem_fun1_t&lt;*&gt;" />
     <DisplayString>mem_fun({_Pmemfun})</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::mem_fun_ref_t&lt;*&gt;">
-    <AlternativeType Name="std::mem_fun1_ref_t&lt;*&gt;" />
-    <AlternativeType Name="std::const_mem_fun_ref_t&lt;*&gt;" />
-    <AlternativeType Name="std::const_mem_fun1_ref_t&lt;*&gt;" />
+<Type Name="stlp::std::mem_fun_ref_t&lt;*&gt;">
+    <AlternativeType Name="stlp::std::mem_fun1_ref_t&lt;*&gt;" />
+    <AlternativeType Name="stlp::std::const_mem_fun_ref_t&lt;*&gt;" />
+    <AlternativeType Name="stlp::std::const_mem_fun1_ref_t&lt;*&gt;" />
     <DisplayString>mem_fun_ref({_Pmemfun})</DisplayString>
     <Expand/>
 </Type>
 
 
-<Type Name="std::auto_ptr&lt;*&gt;">
+<Type Name="stlp::std::auto_ptr&lt;*&gt;">
     <DisplayString Condition="_Myptr == 0">empty</DisplayString>
     <DisplayString Condition="_Myptr != 0">auto_ptr {*_Myptr}</DisplayString>
     <Expand>
@@ -472,68 +472,68 @@
 </Type>
 
 
-<Type Name="std::_Ph&lt;1&gt;">
-    <AlternativeType Name="std::tr1::_Ph&lt;1&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ph&lt;1&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ph&lt;1&gt;" /> <!-- VC10 -->
     <DisplayString>_1</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::_Ph&lt;2&gt;">
-    <AlternativeType Name="std::tr1::_Ph&lt;2&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ph&lt;2&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ph&lt;2&gt;" /> <!-- VC10 -->
     <DisplayString>_2</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::_Ph&lt;3&gt;">
-    <AlternativeType Name="std::tr1::_Ph&lt;3&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ph&lt;3&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ph&lt;3&gt;" /> <!-- VC10 -->
     <DisplayString>_3</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::_Ph&lt;4&gt;">
-    <AlternativeType Name="std::tr1::_Ph&lt;4&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ph&lt;4&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ph&lt;4&gt;" /> <!-- VC10 -->
     <DisplayString>_4</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::_Ph&lt;5&gt;">
-    <AlternativeType Name="std::tr1::_Ph&lt;5&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ph&lt;5&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ph&lt;5&gt;" /> <!-- VC10 -->
     <DisplayString>_5</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::_Ph&lt;6&gt;">
-    <AlternativeType Name="std::tr1::_Ph&lt;6&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ph&lt;6&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ph&lt;6&gt;" /> <!-- VC10 -->
     <DisplayString>_6</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::_Ph&lt;7&gt;">
-    <AlternativeType Name="std::tr1::_Ph&lt;7&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ph&lt;7&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ph&lt;7&gt;" /> <!-- VC10 -->
     <DisplayString>_7</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::_Ph&lt;8&gt;">
-    <AlternativeType Name="std::tr1::_Ph&lt;8&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ph&lt;8&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ph&lt;8&gt;" /> <!-- VC10 -->
     <DisplayString>_8</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::_Ph&lt;9&gt;">
-    <AlternativeType Name="std::tr1::_Ph&lt;9&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ph&lt;9&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ph&lt;9&gt;" /> <!-- VC10 -->
     <DisplayString>_9</DisplayString>
     <Expand/>
 </Type>
 
-<Type Name="std::_Ph&lt;10&gt;">
-    <AlternativeType Name="std::tr1::_Ph&lt;10&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Ph&lt;10&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Ph&lt;10&gt;" /> <!-- VC10 -->
     <DisplayString>_10</DisplayString>
     <Expand/>
 </Type>
 
 
-<Type Name="std::_Bind&lt;*&gt;">
+<Type Name="stlp::std::_Bind&lt;*&gt;">
     <DisplayString>bind({_Myfun}, {_Mybargs})</DisplayString>
     <Expand>
         <Item Name="[f]">_Myfun</Item>
@@ -542,14 +542,14 @@
 </Type>
 
 
-<Type Name="std::tr1::_Bind0&lt;*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind0&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object})</DisplayString>
     <Expand>
         <Item Name="[f]">_Callee._Object</Item>
     </Expand>
 </Type>
 
-<Type Name="std::tr1::_Bind1&lt;*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind1&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object}, {_Vx0})</DisplayString>
     <Expand>
         <Item Name="[f]">_Callee._Object</Item>
@@ -557,7 +557,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::_Bind2&lt;*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind2&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object}, {_Vx0}, {_Vx1})</DisplayString>
     <Expand>
         <Item Name="[f]">_Callee._Object</Item>
@@ -566,7 +566,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::_Bind3&lt;*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind3&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object}, {_Vx0}, {_Vx1}, {_Vx2})</DisplayString>
     <Expand>
         <Item Name="[f]">_Callee._Object</Item>
@@ -576,7 +576,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::_Bind4&lt;*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind4&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object}, {_Vx0}, {_Vx1}, {_Vx2}, {_Vx3})</DisplayString>
     <Expand>
         <Item Name="[f]">_Callee._Object</Item>
@@ -587,7 +587,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::_Bind5&lt;*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind5&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object}, {_Vx0}, {_Vx1}, {_Vx2}, {_Vx3}, {_Vx4})</DisplayString>
     <Expand>
         <Item Name="[f]">_Callee._Object</Item>
@@ -599,7 +599,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::_Bind6&lt;*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind6&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object}, {_Vx0}, {_Vx1}, {_Vx2}, {_Vx3}, {_Vx4}, {_Vx5})</DisplayString>
     <Expand>
         <Item Name="[f]">_Callee._Object</Item>
@@ -612,7 +612,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::_Bind7&lt;*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind7&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object}, {_Vx0}, {_Vx1}, {_Vx2}, {_Vx3}, {_Vx4}, {_Vx5}, {_Vx6})</DisplayString>
     <Expand>
         <Item Name="[f]">_Callee._Object</Item>
@@ -626,7 +626,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::_Bind8&lt;*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind8&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object}, {_Vx0}, {_Vx1}, {_Vx2}, {_Vx3}, {_Vx4}, {_Vx5}, {_Vx6}, {_Vx7})</DisplayString>
     <Expand>
         <Item Name="[f]">_Callee._Object</Item>
@@ -641,7 +641,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::_Bind9&lt;*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind9&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object}, {_Vx0}, {_Vx1}, {_Vx2}, {_Vx3}, {_Vx4}, {_Vx5}, {_Vx6}, {_Vx7}, {_Vx8})</DisplayString>
     <Expand>
         <Item Name="[f]">_Callee._Object</Item>
@@ -657,7 +657,7 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::_Bind10&lt;*&gt;"> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind10&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object}, {_Vx0}, {_Vx1}, {_Vx2}, {_Vx3}, {_Vx4}, {_Vx5}, {_Vx6}, {_Vx7}, {_Vx8}, {_Vx9})</DisplayString>
     <Expand>
         <Item Name="[f]">_Callee._Object</Item>
@@ -674,8 +674,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::tr1::_Bind&lt;*&gt;"> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Bind_fty&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Bind&lt;*&gt;"> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Bind_fty&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>{_Bx}</DisplayString>
     <Expand>
         <ExpandedItem>_Bx</ExpandedItem>
@@ -683,51 +683,51 @@
 </Type>
 
 
-<Type Name="std::_Mem_fn_wrap&lt;*&gt;">
-    <AlternativeType Name="std::tr1::_Mem_fn1&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Mem_fn2&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Mem_fn3&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Mem_fn4&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Mem_fn5&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Mem_fn6&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Mem_fn7&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Mem_fn8&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Mem_fn9&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Mem_fn10&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Mem_fn_wrap&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Mem_fn1&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Mem_fn2&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Mem_fn3&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Mem_fn4&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Mem_fn5&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Mem_fn6&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Mem_fn7&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Mem_fn8&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Mem_fn9&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Mem_fn10&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>mem_fn({_Callee._Object})</DisplayString>
     <Expand/>
 </Type>
 
 
-<Type Name="std::tr1::_Impl_no_alloc0&lt;*&gt;"> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl_no_alloc1&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl_no_alloc2&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl_no_alloc3&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl_no_alloc4&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl_no_alloc5&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl_no_alloc6&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl_no_alloc7&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl_no_alloc8&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl_no_alloc9&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl_no_alloc10&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::tr1::_Impl_no_alloc0&lt;*&gt;"> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc1&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc2&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc3&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc4&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc5&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc6&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc7&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc8&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc9&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc10&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>{_Callee._Object}</DisplayString>
     <Expand>
         <Item Name="[functor]">_Callee._Object</Item>
     </Expand>
 </Type>
 
-<Type Name="std::_Func_impl&lt;*&gt;">
-    <AlternativeType Name="std::tr1::_Impl0&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl1&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl2&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl3&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl4&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl5&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl6&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl7&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl8&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl9&lt;*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::_Impl10&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_Func_impl&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::_Impl0&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl1&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl2&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl3&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl4&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl5&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl6&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl7&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl8&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl9&lt;*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::_Impl10&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>{_Callee._Object}</DisplayString>
     <Expand>
         <Item Name="[functor]">_Callee._Object</Item>
@@ -735,8 +735,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::function&lt;*&gt;">
-    <AlternativeType Name="std::tr1::function&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::function&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::function&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString Condition="_Impl == 0">empty</DisplayString>
     <DisplayString Condition="_Impl != 0">{*_Impl}</DisplayString>
     <Expand>
@@ -745,13 +745,13 @@
 </Type>
 
 
-<Type Name="std::hash&lt;*&gt;">
+<Type Name="stlp::std::hash&lt;*&gt;">
     <DisplayString>hash</DisplayString>
     <Expand/>
 </Type>
 
 
-<Type Name="std::basic_string&lt;char,*&gt;">
+<Type Name="stlp::std::basic_string&lt;char,*&gt;">
     <DisplayString Condition="_Myres &lt; _BUF_SIZE">{_Bx._Buf,s}</DisplayString>
     <DisplayString Condition="_Myres &gt;= _BUF_SIZE">{_Bx._Ptr,s}</DisplayString>
     <StringView Condition="_Myres &lt; _BUF_SIZE">_Bx._Buf,s</StringView>
@@ -767,8 +767,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::basic_string&lt;unsigned short,*&gt;">
-    <AlternativeType Name="std::basic_string&lt;wchar_t,*&gt;" />
+<Type Name="stlp::std::basic_string&lt;unsigned short,*&gt;">
+    <AlternativeType Name="stlp::std::basic_string&lt;wchar_t,*&gt;" />
     <DisplayString Condition="_Myres &lt; _BUF_SIZE">{_Bx._Buf,su}</DisplayString>
     <DisplayString Condition="_Myres &gt;= _BUF_SIZE">{_Bx._Ptr,su}</DisplayString>
     <StringView Condition="_Myres &lt; _BUF_SIZE">_Bx._Buf,su</StringView>
@@ -784,10 +784,10 @@
     </Expand>
 </Type>
 
-<Type Name="std::_String_iterator&lt;std::_String_val&lt;std::_Simple_types&lt;char&gt; &gt; &gt;">
-    <AlternativeType Name="std::_String_const_iterator&lt;std::_String_val&lt;std::_Simple_types&lt;char&gt; &gt; &gt;" />
-    <AlternativeType Name="std::_String_iterator&lt;char,*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::_String_const_iterator&lt;char,*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_String_iterator&lt;stlp::std::_String_val&lt;stlp::std::_Simple_types&lt;char&gt; &gt; &gt;">
+    <AlternativeType Name="stlp::std::_String_const_iterator&lt;stlp::std::_String_val&lt;stlp::std::_Simple_types&lt;char&gt; &gt; &gt;" />
+    <AlternativeType Name="stlp::std::_String_iterator&lt;char,*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::_String_const_iterator&lt;char,*&gt;" /> <!-- VC10 -->
     <DisplayString>{_Ptr,s}</DisplayString>
     <StringView>_Ptr,s</StringView>
     <Expand>
@@ -795,14 +795,14 @@
     </Expand>
 </Type>
 
-<Type Name="std::_String_iterator&lt;std::_String_val&lt;std::_Simple_types&lt;wchar_t&gt; &gt; &gt;">
-    <AlternativeType Name="std::_String_const_iterator&lt;std::_String_val&lt;std::_Simple_types&lt;wchar_t&gt; &gt; &gt;" />
-    <AlternativeType Name="std::_String_iterator&lt;std::_String_val&lt;std::_Simple_types&lt;unsigned short&gt; &gt; &gt;" />
-    <AlternativeType Name="std::_String_const_iterator&lt;std::_String_val&lt;std::_Simple_types&lt;unsigned short&gt; &gt; &gt;" />
-    <AlternativeType Name="std::_String_iterator&lt;wchar_t,*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::_String_const_iterator&lt;wchar_t,*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::_String_iterator&lt;unsigned short,*&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::_String_const_iterator&lt;unsigned short,*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::_String_iterator&lt;stlp::std::_String_val&lt;stlp::std::_Simple_types&lt;wchar_t&gt; &gt; &gt;">
+    <AlternativeType Name="stlp::std::_String_const_iterator&lt;stlp::std::_String_val&lt;stlp::std::_Simple_types&lt;wchar_t&gt; &gt; &gt;" />
+    <AlternativeType Name="stlp::std::_String_iterator&lt;stlp::std::_String_val&lt;stlp::std::_Simple_types&lt;unsigned short&gt; &gt; &gt;" />
+    <AlternativeType Name="stlp::std::_String_const_iterator&lt;stlp::std::_String_val&lt;stlp::std::_Simple_types&lt;unsigned short&gt; &gt; &gt;" />
+    <AlternativeType Name="stlp::std::_String_iterator&lt;wchar_t,*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::_String_const_iterator&lt;wchar_t,*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::_String_iterator&lt;unsigned short,*&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::_String_const_iterator&lt;unsigned short,*&gt;" /> <!-- VC10 -->
     <DisplayString>{_Ptr,su}</DisplayString>
     <StringView>_Ptr,su</StringView>
     <Expand>
@@ -811,8 +811,8 @@
 </Type>
 
 
-<Type Name="std::array&lt;*&gt;">
-    <AlternativeType Name="std::tr1::array&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::array&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::array&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>{{ size={(size_t) _EEN_SIZE} }}</DisplayString>
     <Expand>
         <ArrayItems>
@@ -822,8 +822,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::_Array_iterator&lt;*&gt;">
-    <AlternativeType Name="std::_Array_const_iterator&lt;*&gt;" />
+<Type Name="stlp::std::_Array_iterator&lt;*&gt;">
+    <AlternativeType Name="stlp::std::_Array_const_iterator&lt;*&gt;" />
     <DisplayString Condition="_EEN_IDL == 0">{*_Ptr}</DisplayString>
     <DisplayString Condition="(_EEN_IDL != 0) &amp;&amp; (_Idx != _EEN_SIZE)">{_Ptr[_Idx]}</DisplayString>
     <DisplayString Condition="(_EEN_IDL != 0) &amp;&amp; (_Idx == _EEN_SIZE)">end</DisplayString>
@@ -834,7 +834,7 @@
 </Type>
 
 
-<Type Name="std::deque&lt;*&gt;">
+<Type Name="stlp::std::deque&lt;*&gt;">
     <DisplayString>{{ size={_Mysize} }}</DisplayString>
     <Expand>
         <IndexListItems>
@@ -844,8 +844,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::_Deque_iterator&lt;*&gt;">
-    <AlternativeType Name="std::_Deque_const_iterator&lt;*&gt;" />
+<Type Name="stlp::std::_Deque_iterator&lt;*&gt;">
+    <AlternativeType Name="stlp::std::_Deque_const_iterator&lt;*&gt;" />
     <DisplayString Condition="_Myoff &lt; ((_Mydeque_t *)_Myproxy-&gt;_Mycont)-&gt;_Myoff + ((_Mydeque_t *)_Myproxy-&gt;_Mycont)-&gt;_Mysize">{((_Mydeque_t *)_Myproxy-&gt;_Mycont)-&gt;_Map[(_Myoff / _EEN_DS) % ((_Mydeque_t *)_Myproxy-&gt;_Mycont)-&gt;_Mapsize][_Myoff % _EEN_DS]}</DisplayString>
     <DisplayString Condition="_Myoff &gt;= ((_Mydeque_t *)_Myproxy-&gt;_Mycont)-&gt;_Myoff + ((_Mydeque_t *)_Myproxy-&gt;_Mycont)-&gt;_Mysize">end</DisplayString>
     <Expand>
@@ -855,7 +855,7 @@
 </Type>
 
 
-<Type Name="std::forward_list&lt;*&gt;">
+<Type Name="stlp::std::forward_list&lt;*&gt;">
     <DisplayString Condition="_Myhead == 0">empty</DisplayString>
     <DisplayString Condition="_Myhead != 0">non-empty</DisplayString>
     <Expand>
@@ -867,8 +867,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::_Flist_iterator&lt;*&gt;">
-    <AlternativeType Name="std::_Flist_const_iterator&lt;*&gt;" />
+<Type Name="stlp::std::_Flist_iterator&lt;*&gt;">
+    <AlternativeType Name="stlp::std::_Flist_const_iterator&lt;*&gt;" />
     <DisplayString Condition="_Ptr == 0">end</DisplayString>
     <DisplayString Condition="_Ptr != 0">{_Ptr-&gt;_Myval}</DisplayString>
     <Expand>
@@ -877,7 +877,7 @@
 </Type>
 
 
-<Type Name="std::list&lt;*&gt;">
+<Type Name="stlp::std::list&lt;*&gt;">
     <DisplayString>{{ size={_Mysize} }}</DisplayString>
     <Expand>
         <LinkedListItems>
@@ -889,8 +889,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::_List_iterator&lt;*&gt;">
-    <AlternativeType Name="std::_List_const_iterator&lt;*&gt;" />
+<Type Name="stlp::std::_List_iterator&lt;*&gt;">
+    <AlternativeType Name="stlp::std::_List_const_iterator&lt;*&gt;" />
     <DisplayString>{_Ptr-&gt;_Myval}</DisplayString>
     <Expand>
         <Item Name="[ptr]">&amp;_Ptr-&gt;_Myval</Item>
@@ -898,7 +898,7 @@
 </Type>
 
 
-<Type Name="std::vector&lt;bool,*&gt;">
+<Type Name="stlp::std::vector&lt;bool,*&gt;">
     <DisplayString>{{ size={_Mysize} }}</DisplayString>
     <Expand>
         <Item Name="[size]" ExcludeView="simple" >_Mysize</Item>
@@ -910,9 +910,9 @@
     </Expand>
 </Type>
 
-<Type Name="std::_Vb_reference&lt;*&gt;">
-    <AlternativeType Name="std::_Vb_iterator&lt;*&gt;" />
-    <AlternativeType Name="std::_Vb_const_iterator&lt;*&gt;" />
+<Type Name="stlp::std::_Vb_reference&lt;*&gt;">
+    <AlternativeType Name="stlp::std::_Vb_iterator&lt;*&gt;" />
+    <AlternativeType Name="stlp::std::_Vb_const_iterator&lt;*&gt;" />
     <DisplayString>{(bool)((*_Myptr &gt;&gt; _Myoff) &amp; 1)}</DisplayString>
     <Expand>
         <Item Name="[ptr]">_Myptr</Item>
@@ -921,7 +921,7 @@
 </Type>
 
 
-<Type Name="std::vector&lt;*&gt;">
+<Type Name="stlp::std::vector&lt;*&gt;">
     <DisplayString>{{ size={_Mylast - _Myfirst} }}</DisplayString>
     <Expand>
         <Item Name="[size]" ExcludeView="simple">_Mylast - _Myfirst</Item>
@@ -933,8 +933,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::_Vector_iterator&lt;*&gt;">
-    <AlternativeType Name="std::_Vector_const_iterator&lt;*&gt;" />
+<Type Name="stlp::std::_Vector_iterator&lt;*&gt;">
+    <AlternativeType Name="stlp::std::_Vector_const_iterator&lt;*&gt;" />
     <DisplayString>{*_Ptr}</DisplayString>
     <Expand>
         <Item Name="[ptr]">_Ptr</Item>
@@ -942,10 +942,10 @@
 </Type>
 
 
-<Type Name="std::map&lt;*&gt;">
-    <AlternativeType Name="std::multimap&lt;*&gt;" />
-    <AlternativeType Name="std::set&lt;*&gt;" />
-    <AlternativeType Name="std::multiset&lt;*&gt;" />
+<Type Name="stlp::std::map&lt;*&gt;">
+    <AlternativeType Name="stlp::std::multimap&lt;*&gt;" />
+    <AlternativeType Name="stlp::std::set&lt;*&gt;" />
+    <AlternativeType Name="stlp::std::multiset&lt;*&gt;" />
     <DisplayString>{{ size={_Mysize} }}</DisplayString>
     <Expand>
         <TreeItems>
@@ -958,8 +958,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::_Tree_iterator&lt;*&gt;">
-    <AlternativeType Name="std::_Tree_const_iterator&lt;*&gt;" />
+<Type Name="stlp::std::_Tree_iterator&lt;*&gt;">
+    <AlternativeType Name="stlp::std::_Tree_const_iterator&lt;*&gt;" />
     <DisplayString>{_Ptr-&gt;_Myval}</DisplayString>
     <Expand>
         <Item Name="[ptr]">&amp;_Ptr-&gt;_Myval</Item>
@@ -967,10 +967,10 @@
 </Type>
 
 
-<Type Name="std::unordered_map&lt;*&gt;">
-    <AlternativeType Name="std::unordered_multimap&lt;*&gt;" />
-    <AlternativeType Name="std::unordered_set&lt;*&gt;" />
-    <AlternativeType Name="std::unordered_multiset&lt;*&gt;" />
+<Type Name="stlp::std::unordered_map&lt;*&gt;">
+    <AlternativeType Name="stlp::std::unordered_multimap&lt;*&gt;" />
+    <AlternativeType Name="stlp::std::unordered_set&lt;*&gt;" />
+    <AlternativeType Name="stlp::std::unordered_multiset&lt;*&gt;" />
     <AlternativeType Name="stdext::hash_map&lt;*&gt;" />
     <AlternativeType Name="stdext::hash_multimap&lt;*&gt;" />
     <AlternativeType Name="stdext::hash_set&lt;*&gt;" />
@@ -982,8 +982,8 @@
 </Type>
 
 
-<Type Name="std::queue&lt;*&gt;">
-    <AlternativeType Name="std::stack&lt;*&gt;" />
+<Type Name="stlp::std::queue&lt;*&gt;">
+    <AlternativeType Name="stlp::std::stack&lt;*&gt;" />
     <DisplayString>{c}</DisplayString>
     <Expand>
         <Item Name="c">c</Item>
@@ -991,7 +991,7 @@
 </Type>
 
 
-<Type Name="std::priority_queue&lt;*&gt;">
+<Type Name="stlp::std::priority_queue&lt;*&gt;">
     <DisplayString>{c}</DisplayString>
     <Expand>
         <Item Name="c [heap]">c</Item>
@@ -1000,7 +1000,7 @@
 </Type>
 
 
-<Type Name="std::reverse_iterator&lt;*&gt;">
+<Type Name="stlp::std::reverse_iterator&lt;*&gt;">
     <DisplayString>reverse_iterator current {current}</DisplayString>
     <Expand>
         <Item Name="current">current</Item>
@@ -1008,7 +1008,7 @@
 </Type>
 
 
-<Type Name="std::back_insert_iterator&lt;*&gt;">
+<Type Name="stlp::std::back_insert_iterator&lt;*&gt;">
     <DisplayString>back_insert_iterator into {container}</DisplayString>
     <Expand>
         <Item Name="container">container</Item>
@@ -1016,7 +1016,7 @@
 </Type>
 
 
-<Type Name="std::front_insert_iterator&lt;*&gt;">
+<Type Name="stlp::std::front_insert_iterator&lt;*&gt;">
     <DisplayString>front_insert_iterator into {container}</DisplayString>
     <Expand>
         <Item Name="container">container</Item>
@@ -1024,7 +1024,7 @@
 </Type>
 
 
-<Type Name="std::insert_iterator&lt;*&gt;">
+<Type Name="stlp::std::insert_iterator&lt;*&gt;">
     <DisplayString>insert_iterator into {container} at {iter}</DisplayString>
     <Expand>
         <Item Name="container">container</Item>
@@ -1033,7 +1033,7 @@
 </Type>
 
 
-<Type Name="std::move_iterator&lt;*&gt;">
+<Type Name="stlp::std::move_iterator&lt;*&gt;">
     <DisplayString>move_iterator current {current}</DisplayString>
     <Expand>
         <Item Name="current">current</Item>
@@ -1041,7 +1041,7 @@
 </Type>
 
 
-<Type Name="std::complex&lt;*&gt;">
+<Type Name="stlp::std::complex&lt;*&gt;">
     <DisplayString Condition="(_Val[1] &lt; 0) &amp;&amp; (_Val[0] == 0)">-i*{-_Val[1]}</DisplayString>
     <DisplayString Condition="(_Val[1] &lt; 0) &amp;&amp; (_Val[0] != 0)">{_Val[0]}-i*{-_Val[1]}</DisplayString>
     <DisplayString Condition="_Val[1] == 0">{_Val[0]}</DisplayString>
@@ -1054,7 +1054,7 @@
 </Type>
 
 
-<Type Name="std::valarray&lt;*&gt;">
+<Type Name="stlp::std::valarray&lt;*&gt;">
     <DisplayString>{{ size={_Mysize} }}</DisplayString>
     <Expand>
         <ArrayItems>
@@ -1065,8 +1065,8 @@
 </Type>
 
 
-<Type Name="std::basic_regex&lt;*&gt;">
-    <AlternativeType Name="std::tr1::basic_regex&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::basic_regex&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::basic_regex&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString Condition="_Rep == 0">empty</DisplayString>
     <DisplayString Condition="(_Rep != 0) &amp;&amp; (_EEN_VIS == 1)">{_Visualization}</DisplayString>
     <DisplayString Condition="(_Rep != 0) &amp;&amp; (_EEN_VIS != 1)">{*_Rep}</DisplayString>
@@ -1074,18 +1074,18 @@
     <Expand/>
 </Type>
 
-<Type Name="std::sub_match&lt;char const *&gt;">
-    <AlternativeType Name="std::sub_match&lt;wchar_t const *&gt;" />
-    <AlternativeType Name="std::sub_match&lt;unsigned short const *&gt;" />
-    <AlternativeType Name="std::sub_match&lt;char *&gt;" />
-    <AlternativeType Name="std::sub_match&lt;wchar_t *&gt;" />
-    <AlternativeType Name="std::sub_match&lt;unsigned short *&gt;" />
-    <AlternativeType Name="std::tr1::sub_match&lt;char const *&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::sub_match&lt;wchar_t const *&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::sub_match&lt;unsigned short const *&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::sub_match&lt;char *&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::sub_match&lt;wchar_t *&gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::sub_match&lt;unsigned short *&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::sub_match&lt;char const *&gt;">
+    <AlternativeType Name="stlp::std::sub_match&lt;wchar_t const *&gt;" />
+    <AlternativeType Name="stlp::std::sub_match&lt;unsigned short const *&gt;" />
+    <AlternativeType Name="stlp::std::sub_match&lt;char *&gt;" />
+    <AlternativeType Name="stlp::std::sub_match&lt;wchar_t *&gt;" />
+    <AlternativeType Name="stlp::std::sub_match&lt;unsigned short *&gt;" />
+    <AlternativeType Name="stlp::std::tr1::sub_match&lt;char const *&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::sub_match&lt;wchar_t const *&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::sub_match&lt;unsigned short const *&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::sub_match&lt;char *&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::sub_match&lt;wchar_t *&gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::sub_match&lt;unsigned short *&gt;" /> <!-- VC10 -->
     <DisplayString Condition="matched">{second - first}</DisplayString>
     <DisplayString Condition="!matched">false</DisplayString>
     <Expand>
@@ -1095,10 +1095,10 @@
     </Expand>
 </Type>
 
-<Type Name="std::sub_match&lt;std::_String_const_iterator&lt;*&gt; &gt;">
-    <AlternativeType Name="std::sub_match&lt;std::_String_iterator&lt;*&gt; &gt;" />
-    <AlternativeType Name="std::tr1::sub_match&lt;std::_String_const_iterator&lt;*&gt; &gt;" /> <!-- VC10 -->
-    <AlternativeType Name="std::tr1::sub_match&lt;std::_String_iterator&lt;*&gt; &gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::sub_match&lt;stlp::std::_String_const_iterator&lt;*&gt; &gt;">
+    <AlternativeType Name="stlp::std::sub_match&lt;stlp::std::_String_iterator&lt;*&gt; &gt;" />
+    <AlternativeType Name="stlp::std::tr1::sub_match&lt;stlp::std::_String_const_iterator&lt;*&gt; &gt;" /> <!-- VC10 -->
+    <AlternativeType Name="stlp::std::tr1::sub_match&lt;stlp::std::_String_iterator&lt;*&gt; &gt;" /> <!-- VC10 -->
     <DisplayString Condition="matched">{second._Ptr - first._Ptr}</DisplayString>
     <DisplayString Condition="!matched">false</DisplayString>
     <Expand>
@@ -1108,8 +1108,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::match_results&lt;*&gt;">
-    <AlternativeType Name="std::tr1::match_results&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::match_results&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::match_results&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString Condition="_Matches._Myfirst == _Matches._Mylast">empty</DisplayString>
     <DisplayString Condition="_Matches._Myfirst != _Matches._Mylast">{_Matches}</DisplayString>
     <Expand>
@@ -1122,8 +1122,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::regex_iterator&lt;*&gt;">
-    <AlternativeType Name="std::tr1::regex_iterator&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::regex_iterator&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::regex_iterator&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString Condition="_MyRe == 0">end</DisplayString>
     <DisplayString Condition="_MyRe != 0">{_MyVal}</DisplayString>
     <Expand>
@@ -1135,8 +1135,8 @@
     </Expand>
 </Type>
 
-<Type Name="std::regex_token_iterator&lt;*&gt;">
-    <AlternativeType Name="std::tr1::regex_token_iterator&lt;*&gt;" /> <!-- VC10 -->
+<Type Name="stlp::std::regex_token_iterator&lt;*&gt;">
+    <AlternativeType Name="stlp::std::tr1::regex_token_iterator&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString Condition="_Res == 0">end</DisplayString>
     <DisplayString Condition="_Res != 0">{*_Res}</DisplayString>
     <Expand>
