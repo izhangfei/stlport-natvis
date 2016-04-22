@@ -958,6 +958,9 @@
     </Expand>
 </Type>
 
+<Type Name="stlp::std::rb_tree&lt;*&gt;">
+</Type>
+
 <Type Name="stlp::std::_Tree_iterator&lt;*&gt;">
     <AlternativeType Name="stlp::std::_Tree_const_iterator&lt;*&gt;" />
     <DisplayString>{_Ptr-&gt;_Myval}</DisplayString>
