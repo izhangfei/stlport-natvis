@@ -2,7 +2,6 @@
 
 <AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
 
-
 <Type Name="stlp::std::pair&lt;*&gt;">
     <DisplayString>({first}, {second})</DisplayString>
     <Expand>
