@@ -186,7 +186,6 @@
     </Expand>
 </Type>
 
-
 <Type Name="stlp::std::bitset&lt;*&gt;">
     <DisplayString>{{ size={(size_t) _EEN_BITS} }}</DisplayString>
     <Expand>
