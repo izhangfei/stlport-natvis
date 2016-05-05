@@ -205,7 +205,6 @@
     </Expand>
 </Type>
 
-
 <Type Name="stlp::std::allocator&lt;*&gt;">
     <DisplayString>allocator</DisplayString>
     <Expand/>
