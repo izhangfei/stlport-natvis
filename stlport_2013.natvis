@@ -209,7 +209,6 @@
     <Expand/>
 </Type>
 
-
 <Type Name="stlp::std::unique_ptr&lt;*&gt;">
     <DisplayString Condition="_Myptr == 0">empty</DisplayString>
     <DisplayString Condition="_Myptr != 0">unique_ptr {*_Myptr}</DisplayString>
