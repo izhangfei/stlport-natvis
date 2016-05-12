@@ -217,7 +217,6 @@
     </Expand>
 </Type>
 
-
 <Type Name="stlp::std::_Ref_count&lt;*&gt;">
     <AlternativeType Name="stlp::std::tr1::_Ref_count&lt;*&gt;" /> <!-- VC10 -->
     <DisplayString>default</DisplayString>
