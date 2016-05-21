@@ -401,7 +401,6 @@
     <Expand/>
 </Type>
 
-
 <Type Name="stlp::std::unary_negate&lt;*&gt;">
     <DisplayString>not1({_Functor})</DisplayString>
     <Expand>
