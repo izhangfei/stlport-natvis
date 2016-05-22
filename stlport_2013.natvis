@@ -453,7 +453,6 @@
     <Expand/>
 </Type>
 
-
 <Type Name="stlp::std::auto_ptr&lt;*&gt;">
     <DisplayString Condition="_Myptr == 0">empty</DisplayString>
     <DisplayString Condition="_Myptr != 0">auto_ptr {*_Myptr}</DisplayString>
