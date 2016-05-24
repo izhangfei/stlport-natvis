@@ -461,7 +461,6 @@
     </Expand>
 </Type>
 
-
 <Type Name="stlp::std::_Ph&lt;1&gt;">
     <AlternativeType Name="stlp::std::tr1::_Ph&lt;1&gt;" /> <!-- VC10 -->
     <DisplayString>_1</DisplayString>
