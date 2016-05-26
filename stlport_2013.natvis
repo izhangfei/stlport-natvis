@@ -521,7 +521,6 @@
     <Expand/>
 </Type>
 
-
 <Type Name="stlp::std::_Bind&lt;*&gt;">
     <DisplayString>bind({_Myfun}, {_Mybargs})</DisplayString>
     <Expand>
