@@ -529,7 +529,6 @@
     </Expand>
 </Type>
 
-
 <Type Name="stlp::std::tr1::_Bind0&lt;*&gt;"> <!-- VC10 -->
     <DisplayString>bind({_Callee._Object})</DisplayString>
     <Expand>
