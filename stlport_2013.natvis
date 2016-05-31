@@ -669,7 +669,6 @@
     </Expand>
 </Type>
 
-
 <Type Name="stlp::std::_Mem_fn_wrap&lt;*&gt;">
     <AlternativeType Name="stlp::std::tr1::_Mem_fn1&lt;*&gt;" /> <!-- VC10 -->
     <AlternativeType Name="stlp::std::tr1::_Mem_fn2&lt;*&gt;" /> <!-- VC10 -->
