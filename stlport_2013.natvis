@@ -684,7 +684,6 @@
     <Expand/>
 </Type>
 
-
 <Type Name="stlp::std::tr1::_Impl_no_alloc0&lt;*&gt;"> <!-- VC10 -->
     <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc1&lt;*&gt;" /> <!-- VC10 -->
     <AlternativeType Name="stlp::std::tr1::_Impl_no_alloc2&lt;*&gt;" /> <!-- VC10 -->
